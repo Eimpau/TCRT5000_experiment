@@ -1,4 +1,4 @@
-int a;
+int a;  // initialise input variable as integer
 void setup() // Arduino init
 {
 Serial.begin(9600); //serial bitrate
