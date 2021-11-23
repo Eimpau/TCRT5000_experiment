@@ -4,7 +4,9 @@ Experiment using the TCRT5000 sensor using Arduino Uno.
 This code aims to read values coming from the TCRT5000 IR sensor into the Arduino Uno. The values is read in the Serial Monitor.
 
 Requirements:
+
   Hardware:
+ 
     Arduino Uno
     TCRT5000
     5k ohm resistor
