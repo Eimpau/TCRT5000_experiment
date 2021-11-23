@@ -13,6 +13,7 @@ Requirements:
     100 ohm resistor
 
   Software:
+
     Arduino IDE
   
 
