@@ -1,7 +1,7 @@
 # TCRT5000_experiment
 Experiment using the TCRT5000 sensor using Arduino Uno.
 
-This code aims to read values coming from the TCRT5000 IR sensor into the Arduino Uno. The values is read in the Serial Monitor.
+This program reads the voltages of the LED and the Phototransistor using the Arduino's ananlog input pins.
 
 Requirements:
 
