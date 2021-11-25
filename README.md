@@ -22,5 +22,6 @@ Circuit Diagram:
 
 
 Sources:
-https://create.arduino.cc/projecthub/abhilashpatel121/using-ir-sensor-tcrt-5000-with-arduino-7cf482
-https://www.arduino.cc/en/Tutorial/BuiltInExamples/ReadAnalogVoltage 
+
+  https://create.arduino.cc/projecthub/abhilashpatel121/using-ir-sensor-tcrt-5000-with-arduino-7cf482
+  https://www.arduino.cc/en/Tutorial/BuiltInExamples/ReadAnalogVoltage 
