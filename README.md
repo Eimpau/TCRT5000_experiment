@@ -9,8 +9,8 @@ Requirements:
  
     Arduino Uno
     TCRT5000
-    5k ohm resistor
-    100 ohm resistor
+    15k ohm resistor
+    170 ohm resistor
 
   Software:
 
@@ -18,7 +18,7 @@ Requirements:
   
 
 Circuit Diagram:
-![chrome_vOnrjhUfSn](https://user-images.githubusercontent.com/37850648/143016084-e26ef587-48ad-4bb1-adb5-bdbb9d9384a5.png)
+**work in progress**
 
 
 Sources:
