@@ -16,11 +16,15 @@ void loop()
 
   voltage_pt = sensor_value_pt * (5.0 / 1023.0);
   Serial.print("Phototransistor Voltage: ");
-  Serial.println(voltage_pt);
-
-  current_pt = (5.0 - voltage_pt) / 15000;
+  Serial.print(voltage_pt);
+  Serial.print("V");
+  Serial.println();
+  
+  current_pt = ((5.0 - voltage_pt) / 15000) * 1000;
   Serial.print("Phototransistor Current: ");
-  Serial.println(current_pt, 6);
+  Serial.print(current_pt,3);
+  Serial.print("mA"); 
+  Serial.println();
 
   delay(1);
 
@@ -28,13 +32,18 @@ void loop()
 
   voltage_led = sensor_value_led * (5.0 / 1023);
   Serial.print("LED Voltage: ");
-  Serial.println(voltage_led);
-
-  current_led = (5.0 - voltage_led) / 170;
-  Serial.print("Led Current: ");
-  Serial.println(current_led, 3);
-
+  Serial.print(voltage_led);
+  Serial.print("V");
   Serial.println();
+  
+
+  current_led = ((5.0 - voltage_led) / 170) * 1000;
+  Serial.print("Led Current: ");
+  Serial.print(current_led, 3);
+  Serial.print("mA");
+  Serial.println();
+
+  Serial.println("--------------------");
 
   delay(1000);
 }     
