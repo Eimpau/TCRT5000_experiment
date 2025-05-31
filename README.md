@@ -15,10 +15,6 @@ Requirements:
   Software:
 
     Arduino IDE
-  
-
-Circuit Diagram:
-**work in progress**
 
 
 Sources:
